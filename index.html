@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather App</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1> WEATHER APP</h1>
+    <div class="search">
+      <input type="text" id="input" placeholder="Enter city name">
+      <button id="search">Search</button>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="center">
+      <h2 id="city">Patna, IN</h2>
+      <img id="img" src="">
+      <p class="temp" id="temperature">-- °C</p>
+      <p id="clouds">--</p>
+    </div>
+
+    <div class="hourly">
+      <p class="title">Hourly Forecast</p>
+      <div class="grid" id="templist"></div>
+    </div>
+  </div>
+
+  <div class="box">
+    <p class="title">4-Day Forecast</p>
+    <div class="grid" id="weekF"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
